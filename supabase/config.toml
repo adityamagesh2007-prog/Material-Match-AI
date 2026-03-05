@@ -1,0 +1,4 @@
+project_id = "ubfzcxyswkecalbwhrhu"
+
+[functions.material-ai]
+verify_jwt = false
