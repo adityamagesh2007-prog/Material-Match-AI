@@ -1,0 +1,20 @@
+import { MaterialDatabaseEntry } from "@/types/materials";
+
+export const materialsDatabase: MaterialDatabaseEntry[] = [
+  { name: "Aluminum 6061-T6", category: "Metal", density: "2.70 g/cm³", tensileStrength: "310 MPa", maxTemp: "150°C", costLevel: "Medium", recyclable: true, commonUses: ["Aerospace structures", "Automotive parts", "Electronics housings", "Bicycle frames"] },
+  { name: "Stainless Steel 304", category: "Metal", density: "8.00 g/cm³", tensileStrength: "515 MPa", maxTemp: "870°C", costLevel: "Medium", recyclable: true, commonUses: ["Kitchen equipment", "Chemical containers", "Medical instruments", "Construction"] },
+  { name: "Titanium Ti-6Al-4V", category: "Metal", density: "4.43 g/cm³", tensileStrength: "950 MPa", maxTemp: "400°C", costLevel: "High", recyclable: true, commonUses: ["Aerospace", "Medical implants", "Marine hardware", "Sports equipment"] },
+  { name: "Carbon Steel 1045", category: "Metal", density: "7.85 g/cm³", tensileStrength: "585 MPa", maxTemp: "500°C", costLevel: "Low", recyclable: true, commonUses: ["Gears", "Shafts", "Bolts", "Structural components"] },
+  { name: "Copper C11000", category: "Metal", density: "8.94 g/cm³", tensileStrength: "220 MPa", maxTemp: "200°C", costLevel: "Medium", recyclable: true, commonUses: ["Electrical wiring", "Heat exchangers", "Plumbing", "Electronics"] },
+  { name: "ABS (Acrylonitrile Butadiene Styrene)", category: "Polymer", density: "1.04 g/cm³", tensileStrength: "44 MPa", maxTemp: "100°C", costLevel: "Low", recyclable: true, commonUses: ["Consumer electronics", "Automotive trim", "Toys", "3D printing"] },
+  { name: "Polycarbonate (PC)", category: "Polymer", density: "1.20 g/cm³", tensileStrength: "65 MPa", maxTemp: "130°C", costLevel: "Medium", recyclable: true, commonUses: ["Safety glasses", "Phone cases", "Medical devices", "Automotive lenses"] },
+  { name: "Nylon 6/6", category: "Polymer", density: "1.14 g/cm³", tensileStrength: "82 MPa", maxTemp: "150°C", costLevel: "Medium", recyclable: true, commonUses: ["Gears", "Bearings", "Cable ties", "Automotive intake manifolds"] },
+  { name: "PEEK (Polyether Ether Ketone)", category: "Polymer", density: "1.30 g/cm³", tensileStrength: "100 MPa", maxTemp: "260°C", costLevel: "Very High", recyclable: false, commonUses: ["Aerospace components", "Medical implants", "Semiconductor", "Oil & gas"] },
+  { name: "Polypropylene (PP)", category: "Polymer", density: "0.90 g/cm³", tensileStrength: "35 MPa", maxTemp: "100°C", costLevel: "Low", recyclable: true, commonUses: ["Packaging", "Automotive bumpers", "Textiles", "Medical containers"] },
+  { name: "HDPE (High-Density Polyethylene)", category: "Polymer", density: "0.95 g/cm³", tensileStrength: "32 MPa", maxTemp: "80°C", costLevel: "Low", recyclable: true, commonUses: ["Bottles", "Pipes", "Containers", "Cutting boards"] },
+  { name: "Carbon Fiber Reinforced Polymer", category: "Composite", density: "1.60 g/cm³", tensileStrength: "1500 MPa", maxTemp: "200°C", costLevel: "Very High", recyclable: false, commonUses: ["Aerospace", "Sports cars", "Racing bicycles", "Wind turbine blades"] },
+  { name: "Fiberglass (GFRP)", category: "Composite", density: "1.80 g/cm³", tensileStrength: "500 MPa", maxTemp: "250°C", costLevel: "Medium", recyclable: false, commonUses: ["Boat hulls", "Automotive body panels", "Storage tanks", "Wind turbines"] },
+  { name: "Kevlar Composite", category: "Composite", density: "1.44 g/cm³", tensileStrength: "3620 MPa", maxTemp: "200°C", costLevel: "High", recyclable: false, commonUses: ["Body armor", "Aircraft panels", "Automotive reinforcement", "Marine applications"] },
+  { name: "Alumina (Al₂O₃)", category: "Ceramic", density: "3.95 g/cm³", tensileStrength: "300 MPa", maxTemp: "1750°C", costLevel: "Medium", recyclable: false, commonUses: ["Electrical insulators", "Cutting tools", "Wear components", "Medical implants"] },
+  { name: "Silicon Carbide (SiC)", category: "Ceramic", density: "3.10 g/cm³", tensileStrength: "400 MPa", maxTemp: "1600°C", costLevel: "High", recyclable: false, commonUses: ["Semiconductor", "Brake discs", "Armor plating", "Furnace components"] },
+];
